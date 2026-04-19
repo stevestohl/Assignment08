@@ -1,7 +1,5 @@
 // CREATE AN ARRAY OF EMPLOYEES
-let firstMovieList = [ "Scary Movie", "Mommie Dearest", "Saw", "Army of Darkness", "Zoolander"]
 
-console.log(firstMovieList)
 // CHECK TO SEE IF STORAGE OBJECT EXISTS WHEN THE PAGE LOADS
 // IF DOES, RETURN STORAGE OBJECT INTO ARRAY INSTEAD OF POPULATED ARRAY
 
@@ -13,7 +11,7 @@ console.log(firstMovieList)
 
 
 // ADD EMPLOYEE
-form.addEventListener('submit', (e) => {
+
     // PREVENT FORM SUBMISSION
 
     // GET THE VALUES FROM THE TEXT BOXES
@@ -28,10 +26,10 @@ form.addEventListener('submit', (e) => {
 
     // SET FOCUS BACK TO THE ID TEXT BOX
 
-});
+
 
 // DELETE EMPLOYEE
-empTable.addEventListener('click', (e) => {
+
     // CONFIRM THE DELETE
 
         // GET THE SELECTED ROWINDEX FOR THE TR (PARENTNODE.PARENTNODE)
@@ -40,10 +38,9 @@ empTable.addEventListener('click', (e) => {
 
         // BUILD THE GRID
 
-});
 
 // BUILD THE EMPLOYEES GRID
-function buildGrid() {
+
     // REMOVE THE EXISTING SET OF ROWS BY REMOVING THE ENTIRE TBODY SECTION
 
     // REBUILD THE TBODY FROM SCRATCH
@@ -57,4 +54,3 @@ function buildGrid() {
 
     // STORE THE ARRAY IN STORAGE
 
-};
