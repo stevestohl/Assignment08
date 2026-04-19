@@ -1,6 +1,7 @@
 // CREATE AN ARRAY OF EMPLOYEES
+let firstMovieList = [ "Scary Movie", "Mommie Dearest", "Saw", "Army of Darkness", "Zoolander"]
 
-
+console.log(firstMovieList)
 // CHECK TO SEE IF STORAGE OBJECT EXISTS WHEN THE PAGE LOADS
 // IF DOES, RETURN STORAGE OBJECT INTO ARRAY INSTEAD OF POPULATED ARRAY
 
