@@ -1,4 +1,18 @@
 // CREATE AN ARRAY OF EMPLOYEES
+let employees = []
+
+if (localStorage.getItem("employees")) {
+    employees = JSON.parse(localStorage.getItem("employees"))
+} else {
+    employees = [
+        [11111111, "Tara Misu", 1234, 'Misu@peoplepc.com', 'Administrative' ],
+        [22222222, "Carrie O’Key", 5678, 'Carrie@aol.com', 'Engineering'],
+        [33333333, "Ella Vator", 2468, 'Ella@fake.com', 'Executive'],
+        [44444444, "Sue Flay", 1359, 'Sue@britishbakeoff.com', 'Marketing'],
+        [55555555, "Eileen Sideways", 4562, 'Eileen@hotmail.com', 'QA']
+        ]
+}
+
 
 // CHECK TO SEE IF STORAGE OBJECT EXISTS WHEN THE PAGE LOADS
 // IF DOES, RETURN STORAGE OBJECT INTO ARRAY INSTEAD OF POPULATED ARRAY
