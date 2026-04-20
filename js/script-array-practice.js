@@ -239,25 +239,62 @@
 
 
 //STEP 13
-let favMovies = [
-  ["Scary Movie", 1],
-  ["Mommie Dearest", 3],
-  ["Saw", 5],
-  ["Army of Darkness", 4],
-  ["Zoolander", 2]
-]
+// let favMovies = [
+//   ["Scary Movie", 1],
+//   ["Mommie Dearest", 3],
+//   ["Saw", 5],
+//   ["Army of Darkness", 4],
+//   ["Zoolander", 2]
+// ]
 
-let movieNames = favMovies
-    .flat()
-    .filter(item => typeof item === "string")
+// let movieNames = favMovies
+//     .flat()
+//     .filter(item => typeof item === "string")
 
-console.log(movieNames)
+// console.log(movieNames)
 
 
 //STEP 14
 
+// let employees = ["Steve", "TheOne", "TheOtherOne", "Joan Crawford", "Matteo Lane", "Jeff Goldblum"]
+
+// let showEmployee = function(list) {
+//     console.log("Employees:\n")
+//     for(let i in list) {
+//         console.log(list[i].toUpperCase())
+//     }
+// }
+
+// showEmployee(employees)
+
 //STEP 15
+
+// let messyArray = [58, '', 'abcd', true, null, false, 0]
+
+// function cleanArray(arr) {
+//     return arr.filter(Boolean)
+// }
+
+// let clean = cleanArray(messyArray)
+
+// console.log(clean)
 
 //STEP 16
 
+// let numericArray = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+// function getRandomItem(arr) {
+//     let index = Math.floor(Math.random() * arr.length)
+// return arr[index]
+// }
+
+// let randomNumber = getRandomItem(numericArray)
+
+// console.log(randomNumber)
+
 //STEP 17
+// let numericArray = [ 1, 2, 3, 4, 5, 6, 7, 121, 9, 10]
+
+// maxNum = Math.max(...numericArray)
+
+// console.log(maxNum)
